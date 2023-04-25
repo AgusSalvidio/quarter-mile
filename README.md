@@ -10,6 +10,9 @@ Website for all 1/4 mile fans in Argentina. Only at Autódromo de Buenos Aires "
 - [Report a defect](https://github.com/AgusSalvidio/quarter-mile/issues/new?labels=Type%3A+Defect)
 - [Request a feature](https://github.com/AgusSalvidio/quarter-mile/issues/new?labels=Type%3A+Feature)
 
+## Wireframe 💻 
+Click [here](https://whimsical.com/quarter-mile-XPCNNKBftAH9a4A8Srn24j) to see the website wireframe.
+
 ## License 📋
 - The code is licensed under [MIT](LICENSE).
 - The documentation is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
