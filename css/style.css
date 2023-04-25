@@ -1,0 +1,25 @@
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.logo{
+    width: 250px;
+    height: 150px;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+}
+.nav-menu ul li a {
+    text-decoration:none;
+    color: #c80000;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.youtube-video{
+    width: 560px;
+    height: 315px;
+}
+
