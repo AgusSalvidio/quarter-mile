@@ -236,9 +236,13 @@ table, th, td, tr {
 }
 
 .div-times{
-    padding-top: 60px;
-    margin-bottom: 455px;
+    padding-top: 30px;
+    margin-bottom: 10px;
     text-align: center;
+}
+
+.div-times h2{
+    padding: 10px;
 }
 
 .div-times img{
