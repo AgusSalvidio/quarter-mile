@@ -178,6 +178,48 @@ table, th, td, tr {
     margin: auto;
 }
 
+
+.div-reglamentation{
+    padding: 10px 50px;
+    text-align: justify;
+}
+.div-reglamentation img{
+    width: 500px;
+    padding-top: 10px;
+    margin-left: 650px;
+}
+
+.div-reglamentation p{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.div-reglamentation ul{
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.div-reglamentation li{
+    display: list-item;
+    padding-top: 10px;
+}
+
+.div-reglamentation-li-upper-alpha li{
+    display: list-item;
+    padding-top: 10px;
+    list-style: upper-alpha;
+}
+
+.div-reglamentation-li-square ul{
+    padding-left: 30px;
+}
+.div-reglamentation-li-square li{
+    display: list-item;
+    padding-top: 10px;
+    list-style:square;
+    padding-bottom: 10px;
+}
+
 .social-profiles ul,li, a{
     display: inline;
     text-decoration:none;
