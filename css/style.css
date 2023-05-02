@@ -135,14 +135,27 @@ th{
     color:#ffffff;
 }
 
-table, th, td {
+table, th, td, tr {
     border: 1px solid black;
     border-collapse: collapse;
-    text-align: center;
-    
 }
-.class-table{
-    width: 100%;
+
+.div-classes{
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 245px;
+}
+
+.div-classes td{
+    width: 20%;
+    height: 20px;
+}
+
+.div-classes table{
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
 }
 
 .div-times{
