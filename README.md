@@ -1,6 +1,6 @@
 # Quarter Mile
 
-<img src="assets/logos/logo.jpg" alt="Logo" width="300" height="200">
+<img src="assets/logos/logo.png" alt="Logo" width="300" height="100">
 
 Website for all 1/4 mile fans in Argentina. Only at Autódromo de Buenos Aires "Oscar y Juan Gálvez".  
 
