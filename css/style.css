@@ -105,7 +105,7 @@ body{
  }
 
 .hero {
-    background-color: #a90707;
+    background-color: #b61212;
     display: inline-block;
     width: 100%;
     align-items: center;
@@ -128,13 +128,41 @@ body{
     bottom: 300px;
 }
 
+tr:hover{background-color: #ffffff;}
+
+th{
+    background-color: #b61212;
+    color:#ffffff;
+}
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
+    
 }
 .class-table{
     width: 100%;
+}
+
+.div-times{
+    padding-top: 60px;
+    margin-bottom: 455px;
+    text-align: center;
+}
+
+.div-times img{
+    display: inline;
+    width: 50%;
+    height: 400px;
+    border-radius: 10%;
+    padding: 20px;
+}
+
+.div-times table{
+    padding-top: 20px;
+    width: 40%;
+    margin: auto;
 }
 
 .social-profiles ul,li, a{
@@ -149,7 +177,8 @@ table, th, td {
 }
 
 .footer{
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
     background-color: #333333;
     color: #ffffff;
 }
