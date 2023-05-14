@@ -39,6 +39,7 @@ body {
 }
 .nav-menu ul li {
   padding: 10px;
+  transition: 0.4s;
 }
 
 .nav-menu li:hover {
@@ -235,6 +236,7 @@ td,
 tr {
   border: 1px solid black;
   border-collapse: collapse;
+  transition: 0.4s;
 }
 
 .classes-flexbox {
@@ -741,4 +743,32 @@ a {
     margin-top: 50px;
     margin-bottom: 30px;
   }
+}
+
+.navbar img {
+  width: 100px;
+  height: 25px;
+  object-fit: cover;
+}
+
+.offcanvas {
+  background-color: #b61212;
+}
+.offcanvas-body ul li a {
+  text-decoration: none;
+  background-color: #b61212;
+  color: #ffffff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.navbar-custom {
+  background-color: #b61212;
+}
+
+.dropdown-menu {
+  background-color: #b61212;
+}
+
+.dropdown-item:hover {
+  background-color: #b61212;
 }
