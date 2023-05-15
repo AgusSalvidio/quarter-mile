@@ -772,3 +772,14 @@ a {
 .dropdown-item:hover {
   background-color: #b61212;
 }
+
+.footer i{
+  font-size: 25px;
+  color: #ffffff;
+  padding: 0 5px;
+
+}
+
+.footer a i:hover{
+  color: #bbb6b6;
+}
