@@ -193,13 +193,11 @@ tr {
   border: 1px solid black;
   border-collapse: collapse;
   transition: 0.4s;
+  text-align: center;
 }
 
 .classes-flexbox {
-  padding: 50px 0;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  padding: 20px 20px;
   gap: 20px;
   width: 100%;
 }
@@ -488,12 +486,6 @@ a {
     text-align: center;
   }
 
-  .classes-flexbox {
-    flex-wrap: wrap;
-    padding: 20px;
-    gap: 20px;
-  }
-
   .div-reglamentation-img img {
     width: 80%;
   }
@@ -620,26 +612,6 @@ a {
     margin: 5px;
   }
 
-  .classes-flexbox {
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 5px;
-    gap: 20px;
-  }
-
-  .div-classes {
-    padding: 0;
-    gap: 20px;
-  }
-
-  .div-classes td {
-    font-size: 15px;
-  }
-
-  .div-classes table {
-    display: flex;
-  }
-
   .div-reglamentation-img img {
     width: 80%;
   }
@@ -754,3 +726,6 @@ a {
   border-radius: 50%;
 }
 
+.table th{
+  background-color: #b61212;
+}
