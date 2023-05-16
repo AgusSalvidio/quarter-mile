@@ -252,6 +252,8 @@ tr {
   text-align: justify;
 }
 .div-reglamentation-img {
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -260,7 +262,7 @@ tr {
   width: 100%;
 }
 .div-reglamentation-img img {
-  width: 30%;
+  width: 40%;
 }
 
 .div-reglamentation p {
@@ -292,19 +294,6 @@ tr {
   padding-top: 10px;
   list-style: square;
   padding-bottom: 10px;
-}
-
-.button-up {
-  width: 70px;
-  height: 70px;
-  border: 0.5px solid black;
-  border-radius: 100%;
-  object-fit: cover;
-  position: fixed;
-  bottom: 15px;
-  right: 15px;
-  z-index: 1;
-  cursor: pointer;
 }
 
 .iframes-flexbox {
@@ -357,6 +346,7 @@ tr {
 }
 
 .footer {
+  bottom: 0;
   padding: 10px;
   display: flex;
   justify-content: space-between;
