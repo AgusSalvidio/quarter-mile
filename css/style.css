@@ -392,13 +392,7 @@ a {
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  .nav-menu {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .nav-menu ul,
+  .offcanvas-body ul,
   li {
     flex-direction: column;
     text-align: center;
@@ -500,13 +494,7 @@ a {
 }
 
 @media only screen and (min-width: 100px) and (max-width: 480px) {
-  .nav-menu {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .nav-menu ul,
+  .offcanvas-body ul,
   li {
     flex-direction: column;
     text-align: center;
