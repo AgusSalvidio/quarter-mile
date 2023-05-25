@@ -94,25 +94,6 @@ tr {
   width: 100%;
 }
 
-.div-classes {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  gap: 20px;
-}
-
-.div-classes td {
-  width: 20%;
-  height: 20px;
-}
-
-.div-classes table {
-  width: 100%;
-  margin: auto;
-}
-
 .div-times {
   padding-top: 30px;
   margin-bottom: 10px;
