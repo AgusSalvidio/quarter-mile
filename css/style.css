@@ -69,29 +69,6 @@ button[type="submit"]:hover {
   background-color: #9b2323;
   color: #ffffff;
 }
-
-.hero {
-  background-color: #ffffff;
-  display: inline-block;
-  width: 100%;
-  align-items: center;
-}
-
-.hero_content {
-  display: inline-block;
-  width: 40%;
-  padding: 50px;
-  bottom: 300px;
-}
-.hero img {
-  display: inline-block;
-  width: 40%;
-  height: 700px;
-  object-fit: cover;
-  border-radius: 100%;
-  padding: 30px;
-}
-
 tr:hover {
   background-color: #ffffff;
 }
