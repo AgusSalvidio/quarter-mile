@@ -201,6 +201,67 @@ a {
   margin: 10px;
 }
 
+.navbar img {
+  width: 100px;
+  height: 25px;
+  object-fit: cover;
+}
+
+.offcanvas {
+  background-color: #b61212;
+}
+.offcanvas-body ul li a {
+  text-decoration: none;
+  background-color: #b61212;
+  color: #ffffff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.navbar-custom {
+  background-color: #b61212;
+}
+
+.dropdown-menu {
+  background-color: #b61212;
+}
+
+.dropdown-item:hover {
+  background-color: #b61212;
+}
+
+.footer i {
+  font-size: 25px;
+  color: #ffffff;
+  padding: 0 5px;
+}
+
+.footer a i:hover {
+  color: #bbb6b6;
+}
+
+.form-control:focus {
+  border-color: #b61212;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px #b61212, 0 0 8px #b61212;
+  box-shadow: inset 0 1px 1px #b61212, 0 0 8px #b61212;
+}
+
+.carousel-inner {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  width: 50%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.table th {
+  background-color: #b61212;
+}
+
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .iframes-flexbox {
     gap: 40px;
@@ -302,11 +363,13 @@ a {
     padding-top: 10px;
   }
   .footer p {
+    font-size: 16px;
     text-align: justify;
   }
   .social-profiles ul,
   li,
   a {
+    padding: 0;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -321,65 +384,10 @@ a {
   .div-reglamentation-img img {
     width: 80%;
   }
-}
-
-.navbar img {
-  width: 100px;
-  height: 25px;
-  object-fit: cover;
-}
-
-.offcanvas {
-  background-color: #b61212;
-}
-.offcanvas-body ul li a {
-  text-decoration: none;
-  background-color: #b61212;
-  color: #ffffff;
-  font-size: 20px;
-  text-transform: uppercase;
-}
-.navbar-custom {
-  background-color: #b61212;
-}
-
-.dropdown-menu {
-  background-color: #b61212;
-}
-
-.dropdown-item:hover {
-  background-color: #b61212;
-}
-
-.footer i {
-  font-size: 25px;
-  color: #ffffff;
-  padding: 0 5px;
-}
-
-.footer a i:hover {
-  color: #bbb6b6;
-}
-
-.form-control:focus {
-  border-color: #b61212;
-  outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px #b61212, 0 0 8px #b61212;
-  box-shadow: inset 0 1px 1px #b61212, 0 0 8px #b61212;
-}
-
-.carousel-inner {
-  width: 40%;
-  margin: 0 auto;
-}
-
-.carousel-item img {
-  width: 50%;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.table th {
-  background-color: #b61212;
+  .footer p{
+    font-size: 15px;
+  }
+  .footer i{
+    font-size: 18px;
+  }
 }
