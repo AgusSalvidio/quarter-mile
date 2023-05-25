@@ -94,30 +94,6 @@ tr {
   width: 100%;
 }
 
-.div-times {
-  padding-top: 30px;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.div-times h2 {
-  padding: 10px;
-}
-
-.div-times img {
-  display: inline;
-  width: 50%;
-  height: 400px;
-  border-radius: 10%;
-  padding: 20px;
-}
-
-.div-times table {
-  padding-top: 20px;
-  width: 40%;
-  margin: auto;
-}
-
 .div-reglamentation {
   padding: 10px 50px;
   text-align: justify;
