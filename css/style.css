@@ -69,10 +69,7 @@ button[type="submit"]:hover {
   background-color: #9b2323;
   color: #ffffff;
 }
-.container-paragraph-footer {
-  margin-top: 20px;
-  margin-bottom: 70px;
-}
+
 .cards {
   padding: 10px 90px;
   text-align: center;
@@ -374,11 +371,6 @@ a {
   .card_body h3 {
     padding: 14px;
   }
-
-  .container-paragraph-footer {
-    margin-top: 50px;
-    margin-bottom: 30px;
-  }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -475,11 +467,6 @@ a {
   }
   .card_body h3 {
     padding: 14px;
-  }
-
-  .container-paragraph-footer {
-    margin-top: 50px;
-    margin-bottom: 30px;
   }
 }
 
@@ -600,11 +587,6 @@ a {
   }
   .card_body h3 {
     padding: 14px;
-  }
-
-  .container-paragraph-footer {
-    margin-top: 50px;
-    margin-bottom: 30px;
   }
 }
 
