@@ -52,16 +52,6 @@ body {
   margin: 20px;
 }
 
-.div-contact {
-  padding: 20px 90px;
-  text-align: center;
-}
-
-.div-contact form {
-  font-size: 40px;
-  text-align: left;
-}
-
 .location-map iframe {
   padding-top: 20px;
   width: 100%;
