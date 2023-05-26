@@ -4,6 +4,8 @@
 
 Website for all 1/4 mile fans in Argentina. Only at Autódromo de Buenos Aires "Oscar y Juan Gálvez".  
 
+[![pages-build-deployment](https://github.com/AgusSalvidio/quarter-mile/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/AgusSalvidio/quarter-mile/actions/workflows/pages/pages-build-deployment)
+
 ## Quick links 🚀
 
 - [**Explore the docs**](docs/)
