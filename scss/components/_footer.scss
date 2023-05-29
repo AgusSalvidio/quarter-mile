@@ -20,19 +20,13 @@
 .social-profiles {
   ul {
     margin-bottom: 0;
-    display: flex;
-    justify-content: flex-end;
-    text-decoration: none;
+    @extend .reduced-flexbox;
   }
   li {
-    display: flex;
-    justify-content: flex-end;
-    text-decoration: none;
+    @extend .reduced-flexbox;
   }
   a {
-    display: flex;
-    justify-content: flex-end;
-    text-decoration: none;
+    @extend .reduced-flexbox;
   }
 
   img {

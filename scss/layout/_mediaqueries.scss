@@ -103,9 +103,7 @@
     flex-wrap: wrap;
   }
   .social-profiles img {
-    width: 25px;
-    height: 25px;
-    object-fit: cover;
+    @include images(25px, 25px, cover);
     margin: 5px;
   }
 

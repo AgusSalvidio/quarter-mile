@@ -50,6 +50,12 @@ tr {
   background-color: #b61212;
 }
 
+.reduced-flexbox, .social-profiles a, .social-profiles li, .social-profiles ul {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+
 .footer {
   bottom: 0;
   padding: 10px;
@@ -72,19 +78,6 @@ tr {
 
 .social-profiles ul {
   margin-bottom: 0;
-  display: flex;
-  justify-content: flex-end;
-  text-decoration: none;
-}
-.social-profiles li {
-  display: flex;
-  justify-content: flex-end;
-  text-decoration: none;
-}
-.social-profiles a {
-  display: flex;
-  justify-content: flex-end;
-  text-decoration: none;
 }
 .social-profiles img {
   width: 25px;
@@ -346,13 +339,13 @@ tr {
 }
 
 .div-reglamentation-img {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
   width: 100%;
 }
 .div-reglamentation-img img {

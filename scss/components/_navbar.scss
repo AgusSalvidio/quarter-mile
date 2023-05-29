@@ -1,7 +1,5 @@
 .navbar img {
-  width: 100px;
-  height: 25px;
-  object-fit: cover;
+  @include images(100px, 25px, cover);
 }
 .navbar-custom {
   background-color: $main-color;
