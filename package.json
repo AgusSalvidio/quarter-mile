@@ -1,0 +1,11 @@
+{
+  "name": "quarter-mile",
+  "version": "1.0.0",
+  "description": "Website for all 1/4 mile fans in Argentina. Only at Autódromo de Buenos Aires 'Oscar y Juan Gálvez'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agustin Salvidio",
+  "license": "MIT"
+}
