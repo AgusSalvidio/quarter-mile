@@ -182,10 +182,26 @@ tr {
 .footer {
   bottom: 0;
   padding: 10px;
-  display: flex;
+  display: block;
   justify-content: space-between;
   background-color: #333333;
   color: #ffffff;
+}
+.footer p {
+  margin-bottom: 0;
+}
+
+.footer i {
+  font-size: 25px;
+  color: #ffffff;
+  padding: 0 5px;
+}
+
+.footer a i:hover {
+  color: #bbb6b6;
+}
+.social-profiles ul {
+  margin-bottom: 0;
 }
 .social-profiles ul,
 li,
@@ -227,16 +243,6 @@ a {
 
 .dropdown-item:hover {
   background-color: #b61212;
-}
-
-.footer i {
-  font-size: 25px;
-  color: #ffffff;
-  padding: 0 5px;
-}
-
-.footer a i:hover {
-  color: #bbb6b6;
 }
 
 .form-control:focus {
@@ -315,16 +321,13 @@ a {
   .div-sponsor-title h2 {
     padding-top: 10px;
   }
-  .footer p {
-    text-align: center;
-  }
 
   .div-reglamentation-img img {
     width: 80%;
   }
 }
 
-@media only screen and (min-width: 100px) and (max-width: 480px) {
+@media only screen and (min-width: 360px) and (max-width: 480px) {
   .offcanvas-body ul,
   li {
     flex-direction: column;
@@ -363,16 +366,13 @@ a {
     padding-top: 10px;
   }
   .footer p {
-    font-size: 16px;
-    text-align: justify;
+    font-size: 15px;
   }
   .social-profiles ul,
   li,
   a {
     padding: 0;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
   }
   .social-profiles img {
     width: 25px;
@@ -384,10 +384,10 @@ a {
   .div-reglamentation-img img {
     width: 80%;
   }
-  .footer p{
-    font-size: 15px;
-  }
-  .footer i{
+  .footer i {
     font-size: 18px;
+  }
+  .carousel-inner {
+    width: 100%;
   }
 }
