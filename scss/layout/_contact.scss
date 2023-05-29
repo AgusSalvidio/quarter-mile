@@ -1,0 +1,13 @@
+.form-control:focus {
+  border-color: #b61212;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px #b61212, 0 0 8px #b61212;
+  box-shadow: inset 0 1px 1px #b61212, 0 0 8px #b61212;
+}
+.location-map iframe {
+  padding-top: 20px;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border: 0;
+}

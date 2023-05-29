@@ -1,0 +1,44 @@
+.footer {
+  bottom: 0;
+  padding: 10px;
+  display: block;
+  justify-content: space-between;
+  background-color: #333333;
+  color: #ffffff;
+  p {
+    margin-bottom: 0;
+  }
+  i {
+    font-size: 25px;
+    color: #ffffff;
+    padding: 0 5px;
+  }
+  a i:hover {
+    color: #bbb6b6;
+  }
+}
+.social-profiles {
+  ul {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+  }
+  li {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+  }
+  a {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+  }
+
+  img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    margin: 10px;
+  }
+}
