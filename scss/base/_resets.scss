@@ -7,7 +7,7 @@ font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: $main-font;
 }
 
 p {
@@ -18,10 +18,10 @@ body {
   background-color: #f4f4f4;
 }
 button[type="submit"] {
-  background-color: #b61212;
+  background-color: $main-color;
   color: #ffffff;
   &:hover {
-    background-color: #9b2323;
+    background-color: $main-color-light;
     color: #ffffff;
   }
 }
@@ -30,7 +30,7 @@ tr:hover {
 }
 
 th {
-  background-color: #b61212;
+  background-color: $main-color;
   color: #ffffff;
 }
 
@@ -44,5 +44,5 @@ tr {
   text-align: center;
 }
 .table th {
-  background-color: #b61212;
+  background-color: $main-color;
 }

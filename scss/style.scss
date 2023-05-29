@@ -1,4 +1,6 @@
+@import "base/variables";
 @import "base/resets";
+@import "base/utils";
 
 @import "components/footer";
 @import "components/navbar";
@@ -6,6 +8,7 @@
 @import "layout/classes";
 @import "layout/contact";
 @import "layout/index";
+@import "layout/mediaqueries";
 @import "layout/sport-regulation";
 @import "layout/technical-regulation";
 @import "layout/times";

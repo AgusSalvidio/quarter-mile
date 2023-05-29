@@ -4,24 +4,24 @@
   object-fit: cover;
 }
 .navbar-custom {
-  background-color: #b61212;
+  background-color: $main-color;
 }
 
 .offcanvas {
-  background-color: #b61212;
+  background-color: $main-color;
 }
 .offcanvas-body ul li a {
   text-decoration: none;
-  background-color: #b61212;
+  background-color: $main-color;
   color: #ffffff;
   font-size: 20px;
   text-transform: uppercase;
 }
 
 .dropdown-menu {
-  background-color: #b61212;
+  background-color: $main-color;
 }
 
 .dropdown-item:hover {
-  background-color: #b61212;
+  background-color: $main-color;
 }

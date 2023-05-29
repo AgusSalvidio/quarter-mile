@@ -272,8 +272,6 @@ tr {
   }
   .container-box {
     flex-direction: column;
-  }
-  .container-box {
     padding: 5px;
     font-size: 20px;
   }
@@ -303,6 +301,9 @@ tr {
   .footer p {
     font-size: 15px;
   }
+  .footer i {
+    font-size: 18px;
+  }
   .social-profiles ul,
   li,
   a {
@@ -317,9 +318,6 @@ tr {
   }
   .div-reglamentation-img img {
     width: 80%;
-  }
-  .footer i {
-    font-size: 18px;
   }
   .carousel-inner {
     width: 100%;
