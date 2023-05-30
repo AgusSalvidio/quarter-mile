@@ -10,6 +10,9 @@
       height: 300px;
     }
   }
+  .div-reglamentation-img img {
+    width: 70%;
+  }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -48,8 +51,11 @@
     padding-top: 10px;
   }
 
+  .div-reglamentation {
+    padding: 0 10px;
+  }
   .div-reglamentation-img img {
-    width: 80%;
+    width: 100%;
   }
 }
 
@@ -106,11 +112,19 @@
     @include images(25px, 25px, cover);
     margin: 5px;
   }
-
-  .div-reglamentation-img img {
-    width: 80%;
+  .div-reglamentation {
+    padding: 0;
+  }
+  .div-reglamentation-img {
+    margin-bottom: 180px;
+    img {
+      width: 100%;
+    }
   }
   .carousel-inner {
     width: 100%;
+  }
+  .accordion {
+    padding: 0 20px;
   }
 }
