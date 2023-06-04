@@ -131,12 +131,6 @@ tr {
   align-self: center;
 }
 
-.classes-flexbox {
-  padding: 20px 20px;
-  gap: 20px;
-  width: 100%;
-}
-
 .form-control:focus {
   border-color: #b61212;
   outline: 0;
