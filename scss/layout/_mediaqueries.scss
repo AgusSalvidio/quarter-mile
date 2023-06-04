@@ -13,6 +13,9 @@
   .div-reglamentation-img img {
     width: 70%;
   }
+  .time-container {
+    padding: 0;
+  }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -56,6 +59,18 @@
   }
   .div-reglamentation-img img {
     width: 100%;
+  }
+  .time {
+    height: 250px;
+    h2 {
+      font-size: 40px;
+    }
+    p {
+      font-size: 30px;
+    }
+  }
+  .time-container {
+    padding: 0;
   }
 }
 
@@ -126,5 +141,17 @@
   }
   .accordion {
     padding: 0 20px;
+  }
+  .time {
+    height: 200px;
+    h2 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  .time-container {
+    padding: 0;
   }
 }
