@@ -1,0 +1,49 @@
+.times {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+}
+
+.time {
+  width: 90%;
+  height: 300px;
+  background-color: $main-color-light;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #eeee;
+  transition: 1s;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px 0px #4a4a4a;
+  h2{
+    text-align: center;
+    font-size: 60px;
+  }
+  p{
+    text-align: center;
+    font-size: 40px;
+  }
+  img {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+  }
+  &:hover {
+    transition: 1s;
+    background-color: $main-color;
+  }
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}
+
+.time-container {
+  padding: 50px;
+  width: 60%;
+}
