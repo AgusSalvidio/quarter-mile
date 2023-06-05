@@ -72,6 +72,10 @@
   .time-container {
     padding: 0;
   }
+  .gallery {
+    gap: 20px;
+    padding: 10px;
+  }
 }
 
 @media only screen and (min-width: 360px) and (max-width: 480px) {
@@ -153,5 +157,10 @@
   }
   .time-container {
     padding: 0;
+  }
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 10px;
   }
 }
