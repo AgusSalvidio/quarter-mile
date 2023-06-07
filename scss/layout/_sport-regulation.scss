@@ -1,0 +1,37 @@
+.div-reglamentation {
+  padding: 10px;
+  text-align: justify;
+  p {
+    font-size: 20px;
+  }
+  a {
+    padding: 0;
+    font-size: 20px;
+    justify-content: flex-start;
+  }
+  ul {
+    padding-bottom: 10px;
+    padding-left: 15px;
+  }
+  li {
+    display: list-item;
+    padding-top: 10px;
+  }
+}
+.div-reglamentation-li-upper-alpha li {
+  display: list-item;
+  padding-top: 10px;
+  list-style: upper-alpha;
+}
+
+.div-reglamentation-li-square {
+  ul {
+    padding-left: 30px;
+  }
+  li {
+    display: list-item;
+    padding-top: 10px;
+    list-style: square;
+    padding-bottom: 10px;
+  }
+}
