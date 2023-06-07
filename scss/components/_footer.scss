@@ -16,6 +16,15 @@
   a i:hover {
     color: #bbb6b6;
   }
+  &-linkedin {
+    text-decoration: none;
+    transition: 0.5s;
+    color: #ffffff;
+    &:hover {
+      text-decoration: none;
+      color: #bbb6b6;
+    }
+  }
 }
 .social-profiles {
   ul {

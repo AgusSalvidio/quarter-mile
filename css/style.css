@@ -75,6 +75,15 @@ tr {
 .footer a i:hover {
   color: #bbb6b6;
 }
+.footer-linkedin {
+  text-decoration: none;
+  transition: 0.5s;
+  color: #ffffff;
+}
+.footer-linkedin:hover {
+  text-decoration: none;
+  color: #bbb6b6;
+}
 
 .social-profiles ul {
   margin-bottom: 0;
@@ -545,6 +554,40 @@ tr {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
     padding: 10px;
+  }
+}
+.animate__fadeInLeft {
+  animation-name: fadeInLeft;
+  animation-iteration-count: 1;
+  animation-duration: 1.5s;
+  transform: translateX(0);
+}
+
+.animate__fadeInRight {
+  animation-name: fadeInRight;
+  animation-iteration-count: 1;
+  animation-duration: 1.5s;
+  transform: translateX(0);
+}
+
+@keyframes fadeInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes fadeInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 
