@@ -329,7 +329,7 @@ tr {
   padding-bottom: 10px;
 }
 
-.div-reglamentation-img {
+.div-regulation-img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -339,8 +339,13 @@ tr {
   padding: 10px;
   width: 100%;
 }
-.div-reglamentation-img img {
+.div-regulation-img img {
   width: 60%;
+  box-shadow: 1px 2px 5px 0px #4a4a4a;
+  transition: 1s;
+}
+.div-regulation-img img:hover {
+  transform: scale(1.03);
 }
 
 .accordion {
@@ -556,20 +561,54 @@ tr {
     padding: 10px;
   }
 }
-.animate__fadeInLeft {
+.animate-fadeInLeft {
   animation-name: fadeInLeft;
   animation-iteration-count: 1;
   animation-duration: 1.5s;
   transform: translateX(0);
 }
 
-.animate__fadeInRight {
+.animate-fadeInRight {
   animation-name: fadeInRight;
   animation-iteration-count: 1;
   animation-duration: 1.5s;
   transform: translateX(0);
 }
 
+.animate-fadeInUp {
+  animation-name: fadeInUp;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  transform: translateY(0);
+}
+
+.animate-fadeInDown {
+  animation-name: fadeInDown;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  transform: translateY(0);
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fadeInDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 @keyframes fadeInLeft {
   0% {
     transform: translateX(-100%);
