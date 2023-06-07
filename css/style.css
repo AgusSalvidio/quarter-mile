@@ -255,6 +255,11 @@ tr {
   height: 500px;
   object-fit: cover;
   border: 0;
+  box-shadow: 1px 2px 5px 0px #4a4a4a;
+  transition: 1s;
+}
+.div-iframe-flexbox iframe:hover {
+  transform: scale(1.03);
 }
 .div-iframe-flexbox h3 {
   text-align: center;
