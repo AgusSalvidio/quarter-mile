@@ -10,7 +10,7 @@
       height: 300px;
     }
   }
-  .div-reglamentation-img img {
+  .div-regulation-img img {
     width: 70%;
   }
   .time-container {
@@ -59,10 +59,10 @@
     padding-top: 10px;
   }
 
-  .div-reglamentation {
+  .div-regulation {
     padding: 0 10px;
   }
-  .div-reglamentation-img img {
+  .div-regulation-img img {
     width: 100%;
   }
   .time {
@@ -139,10 +139,10 @@
     @include images(25px, 25px, cover);
     margin: 5px;
   }
-  .div-reglamentation {
+  .div-regulation {
     padding: 0;
   }
-  .div-reglamentation-img {
+  .div-regulation-img {
     margin-bottom: 180px;
     img {
       width: 100%;
@@ -172,6 +172,6 @@
     padding: 10px;
   }
   .titles h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 }
