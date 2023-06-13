@@ -10,11 +10,16 @@
       height: 300px;
     }
   }
-  .div-reglamentation-img img {
+  .div-regulation-img img {
     width: 70%;
   }
   .time-container {
     padding: 0;
+  }
+  .titles {
+    h2 {
+      font-size: 2.5rem;
+    }
   }
 }
 
@@ -54,10 +59,10 @@
     padding-top: 10px;
   }
 
-  .div-reglamentation {
+  .div-regulation {
     padding: 0 10px;
   }
-  .div-reglamentation-img img {
+  .div-regulation-img img {
     width: 100%;
   }
   .time {
@@ -75,6 +80,9 @@
   .gallery {
     gap: 20px;
     padding: 10px;
+  }
+  .titles h2 {
+    font-size: 2rem;
   }
 }
 
@@ -131,10 +139,10 @@
     @include images(25px, 25px, cover);
     margin: 5px;
   }
-  .div-reglamentation {
+  .div-regulation {
     padding: 0;
   }
-  .div-reglamentation-img {
+  .div-regulation-img {
     margin-bottom: 180px;
     img {
       width: 100%;
@@ -162,5 +170,8 @@
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
     padding: 10px;
+  }
+  .titles h2 {
+    font-size: 1.6rem;
   }
 }
