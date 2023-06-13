@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../assets/images/gallery1.jpg);
+    background-image: url("../assets/images/gallery1.jpg");
     align-content: center;
     border-radius: 2px;
     background-size: cover;
@@ -21,39 +21,39 @@
   }
   &-image2 {
     @extend .gallery-image1;
-    background-image: url(../assets/images/gallery2.jpg);
+    background-image: url("../assets/images/gallery2.jpg");
   }
   &-image3 {
     @extend .gallery-image1;
-    background-image: url(../assets/images/gallery3.jpg);
+    background-image: url("../assets/images/gallery3.jpg");
   }
   &-image4 {
     @extend .gallery-image1;
-    background-image: url(../assets/images/gallery4.jpg);
+    background-image: url("../assets/images/gallery4.jpg");
   }
   &-image5 {
     @extend .gallery-image1;
-    background-image: url(../assets/images/gallery5.jpg);
+    background-image: url("../assets/images/gallery5.jpg");
   }
   &-image6 {
     @extend .gallery-image1;
-    background-image: url(../assets/images/gallery6.jpg);
+    background-image: url("../assets/images/gallery6.jpg");
   }
   &-image7 {
     @extend .gallery-image1;
-    background-image: url(../assets/images/gallery7.jpg);
+    background-image: url("../assets/images/gallery7.jpg");
   }
   &-image8 {
     @extend .gallery-image1;
-    background-image: url(../assets/images/gallery8.jpg);
+    background-image: url("../assets/images/gallery8.jpg");
   }
   &-image9 {
     @extend .gallery-image1;
-    background-image: url(../assets/images/gallery9.jpg);
+    background-image: url("../assets/images/gallery9.jpg");
   }
   &-image10 {
     @extend .gallery-image1;
-    background-image: url(../assets/images/gallery10.jpg);
+    background-image: url("../assets/images/gallery10.jpg");
   }
   &-image11 {
     @extend .gallery-image1;
